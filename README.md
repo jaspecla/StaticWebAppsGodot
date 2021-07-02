@@ -1,8 +1,10 @@
-# Pong with GDScript
+# Pong with GDScript on Azure Static Web Apps
 
 A simple Pong game. This demo shows best practices
 for game development in Godot, including
 [signals](https://docs.godotengine.org/en/latest/getting_started/step_by_step/signals.html).
+
+It also shows how to build and deploy this game to Azure Static Web Apps, using GitHub Actions.
 
 Language: GDScript
 
@@ -21,6 +23,4 @@ The walls, paddle, and ball are all
 nodes. When the ball touches the walls or the paddles,
 they emit signals and modify the ball.
 
-## Screenshots
 
-![Screenshot](screenshots/pong.png)
